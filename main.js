@@ -2,10 +2,10 @@
 var members = [
 	{
 		id: 1,
-		fullname: 'Ronaldo',
-		title: 'Prince',
-		photo: "img/7.jpg",
-	  	cover: "https://s-media-cache-ak0.pinimg.com/564x/4c/55/eb/4c55eb34a9769bc6cfd6904919dc7f94.jpg",
+		fullname: 'Cristiano Ronaldo',
+		title: 'FORWARD',
+		photo: "http://barca.am/upload/footballers/020c7e31f9c2ebe4f86cb5d7b7948f59.png",
+	  	cover: "https://s-media-cache-ak0.pinimg.com/564x/33/a9/f1/33a9f1dc9bbed779f610e6f0da830a05.jpg",
 	  	description: "description1",
 	  	social: {
 		    facebook: "https://www.facebook.com/adonis.s.zhang",
@@ -15,9 +15,9 @@ var members = [
 	},
 	{
 	  id: 2,
-	  fullname: "Phoebe Salinger",
-	  title: "Developer",
-	  photo: "https://randomuser.me/api/portraits/women/63.jpg",
+	  fullname: "Lionel Messi",
+	  title: "FORWARD",
+	  photo: "img/messi.jpg",
 	  cover: "https://s-media-cache-ak0.pinimg.com/564x/41/9d/b3/419db3eadff1a2ff32e5c82bccebf4bb.jpg",
 	  description: "description2",	  
 	  social: {
@@ -29,10 +29,10 @@ var members = [
 	}, 
 	{
 	  id: 3,
-	  fullname: "Alper Kamu",
-	  title: "Software Engineer",
-	  photo: "https://randomuser.me/api/portraits/men/62.jpg",
-	  cover: "https://s-media-cache-ak0.pinimg.com/564x/33/a9/f1/33a9f1dc9bbed779f610e6f0da830a05.jpg",
+	  fullname: "Neymar Jr",
+	  title: "FORWARD",
+	  photo: "img/neymar.jpg",
+	  cover: "https://s-media-cache-ak0.pinimg.com/564x/4c/55/eb/4c55eb34a9769bc6cfd6904919dc7f94.jpg",
 	  description: "description3",
 	  social: {
 	    facebook: "https://www.facebook.com/knyttneve",
@@ -43,9 +43,9 @@ var members = [
 	}, 
 	{
 	  id: 4,
-	  fullname: "Yuri Konev",
-	  title: "Game Developer",
-	  photo: "https://randomuser.me/api/portraits/men/52.jpg",
+	  fullname: "Antoine Griezmann",
+	  title: "FORWARD",
+	  photo: "img/gezi.jpeg",
 	  cover: "https://s-media-cache-ak0.pinimg.com/564x/6f/3e/cc/6f3eccf2aef689b1bd2ab2b8d3255b56.jpg",
 	  description: "description4",
 	  social: {
@@ -57,9 +57,9 @@ var members = [
 	}, 
 	{
 	  id: 5,
-	  fullname: "Cameron Howe",
-	  title: "QA Engineer",
-	  photo: "https://randomuser.me/api/portraits/women/59.jpg",
+	  fullname: "Luka Modrić",
+	  title: "MIDFIELDER",
+	  photo: "img/modric.jpg",
 	  cover: "https://s-media-cache-ak0.pinimg.com/564x/75/3a/a0/753aa04c0a6cd5dc4bd2f81ffb26f436.jpg",
 	  description: "description5",
 	  social: {
@@ -71,9 +71,9 @@ var members = [
 	},
 	{
 	  id: 6,
-	  fullname: "Yuri Konev",
-	  title: "Game Developer",
-	  photo: "https://randomuser.me/api/portraits/men/52.jpg",
+	  fullname: "Gianluigi Buffon",
+	  title: "GOALKEEPER",
+	  photo: "img/buffon.jpg",
 	  cover: "https://s-media-cache-ak0.pinimg.com/564x/a2/e1/a6/a2e1a612933ac92d91d07d88572ce4c4.jpg",
 	  description: "description6",
 	  social: {
@@ -85,9 +85,9 @@ var members = [
 	}, 
 	{
 	  id: 7,
-	  fullname: "Cameron Howe",
-	  title: "QA Engineer",
-	  photo: "https://randomuser.me/api/portraits/women/59.jpg",
+	  fullname: "Sergio Ramos",
+	  title: "DEFENDER",
+	  photo: "img/ramos.jpg",
 	  cover: "https://s-media-cache-ak0.pinimg.com/564x/0e/82/3b/0e823bd700767b11ab7072be9e2bfb27.jpg",
 	  description: "description7",
 	  social: {
