@@ -5,6 +5,7 @@ A team member display card written in vue.js
 [live demo](https://xinyzhang9.github.io/vue_card/)
 
 ## Features
+- [x] desktop and mobile compatible
 - [x] interactive changing cover
 - [x] image blur for better visualization effect
 - [x] smooth detail/overall transition
