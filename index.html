@@ -10,10 +10,10 @@
 </head>
 <body translate='no'>
 	<div class='wrapper' id='app'>
-		<div :class="[frame, isShowDetail ? 'frame-detail' : ''] ">
+		<div :class="['frame', isShowDetail ? 'frame-detail' : ''] ">
 			<div class='thumbs'>
 				<thumb v-for='(thumb,index) in members' key='thumb.id' 
-						:id=`user-${thumb.id}` 
+						:id=`member-${thumb.id}` 
 						:fullname='thumb.fullname' 
 						:photo = 'thumb.photo' 
 						:title= 'thumb.title' 
@@ -39,7 +39,7 @@
 		
 	</div><!-- app -->
 
-<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js'></script>
+<script src='vue.js'></script>
 <script type="text/javascript" src='main.js'>
 	
 </script>

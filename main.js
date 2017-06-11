@@ -1,4 +1,35 @@
 "use strict";
+var members = [
+	{
+		id: 1,
+		fullname: 'Xinyang',
+		title: 'Prince',
+		photo: "https://randomuser.me/api/portraits/men/81.jpg",
+	  	cover: "https://image.ibb.co/ctMTiF/1.jpg",
+	  	description: "I am a naughty boy",
+	  	social: {
+		    facebook: "https://www.facebook.com/adonis.s.zhang",
+		    twitter: "https://twitter.com/Brother_Yang",
+		    instagram: "https://www.instagram.com/xinyzhang9/"
+		  }
+	},
+	{
+		id: 2,
+		fullname: 'Kangkang',
+		title: 'Prince',
+		photo: "https://randomuser.me/api/portraits/men/81.jpg",
+	  	cover: "https://image.ibb.co/ctMTiF/1.jpg",
+	  	description: "I am a naughty boy",
+	  	social: {
+		    facebook: "https://www.facebook.com/adonis.s.zhang",
+		    twitter: "https://twitter.com/Brother_Yang",
+		    instagram: "https://www.instagram.com/xinyzhang9/"
+		  }
+	}
+
+
+]
+
 
 Vue.component('thumb',{
 	name: 'thumb',
@@ -17,16 +48,16 @@ var app = new Vue({
 			others: null,
 			selected: null,
 			selectedIndex: 0,
-			style:null,
+			style: null,
 			details:{
 				description: null,
-				social:{
+				social: {
 					facebook: null,
 					twitter: null,
-					instagram: null,
+					instagram: null
 				}
 			}
-		}
+		};
 	},
 
 	methods:{
@@ -41,7 +72,7 @@ var app = new Vue({
 			this.selected = document.querySelector(this.thumbID(index));
 
 			this.style = 'position:absolute;left:'+this.selected.offsetLeft + 'px;top:'+this.selected.offsetTop + 'px;';
-			this.others = document.querySelector('.thumb:not(' + this.thumbID(index) + ')');
+			this.others = document.querySelectorAll('.thumb:not(' + this.thumbID(index) + ')');
 			this.others.forEach(function(ele,i){
 				setTimeout(function(){
 					ele.classList.add('thumb-disable');
@@ -71,7 +102,8 @@ var app = new Vue({
 			},200);
 		}
 	},
+	
 	created: function created(){
-		this.coverPhoto = this.members[0].cover
+		this.coverPhoto = this.members[0].cover;
 	}
-})
+});
