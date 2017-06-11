@@ -2,11 +2,11 @@
 var members = [
 	{
 		id: 1,
-		fullname: 'Xinyang',
+		fullname: 'Ronaldo',
 		title: 'Prince',
-		photo: "https://randomuser.me/api/portraits/men/81.jpg",
+		photo: "img/7.jpg",
 	  	cover: "https://image.ibb.co/ctMTiF/1.jpg",
-	  	description: "I am a naughty boy",
+	  	description: "description1",
 	  	social: {
 		    facebook: "https://www.facebook.com/adonis.s.zhang",
 		    twitter: "https://twitter.com/Brother_Yang",
@@ -14,17 +14,88 @@ var members = [
 		  }
 	},
 	{
-		id: 2,
-		fullname: 'Kangkang',
-		title: 'Prince',
-		photo: "https://randomuser.me/api/portraits/men/81.jpg",
-	  	cover: "https://image.ibb.co/ctMTiF/1.jpg",
-	  	description: "I am a naughty boy",
-	  	social: {
-		    facebook: "https://www.facebook.com/adonis.s.zhang",
-		    twitter: "https://twitter.com/Brother_Yang",
-		    instagram: "https://www.instagram.com/xinyzhang9/"
-		  }
+	  id: 2,
+	  fullname: "Phoebe Salinger",
+	  title: "Developer",
+	  photo: "https://randomuser.me/api/portraits/women/63.jpg",
+	  cover: "https://image.ibb.co/mfRTiF/4.jpg",
+	  description: "description2",	  
+	  social: {
+	    facebook: "https://www.facebook.com/knyttneve",
+	    twitter: "https://www.twitter.com/knyttneve",
+	    instagram: "https://www.instagram.com/midlake",
+	    github: "https://github.com/knyttneve"
+	  }
+	}, 
+	{
+	  id: 3,
+	  fullname: "Alper Kamu",
+	  title: "Software Engineer",
+	  photo: "https://randomuser.me/api/portraits/men/62.jpg",
+	  cover: "https://image.ibb.co/jVDVxa/3.jpg",
+	  description: "description3",
+	  social: {
+	    facebook: "https://www.facebook.com/knyttneve",
+	    twitter: "https://www.twitter.com/knyttneve",
+	    instagram: "https://www.instagram.com/midlake",
+	    github: "https://github.com/knyttneve"
+	  }
+	}, 
+	{
+	  id: 4,
+	  fullname: "Yuri Konev",
+	  title: "Game Developer",
+	  photo: "https://randomuser.me/api/portraits/men/52.jpg",
+	  cover: "https://image.ibb.co/b8vcca/2.jpg",
+	  description: "description4",
+	  social: {
+	    facebook: "https://www.facebook.com/knyttneve",
+	    twitter: "https://www.twitter.com/knyttneve",
+	    instagram: "https://www.instagram.com/midlake",
+	    github: "https://github.com/knyttneve"
+	  }
+	}, 
+	{
+	  id: 5,
+	  fullname: "Cameron Howe",
+	  title: "QA Engineer",
+	  photo: "https://randomuser.me/api/portraits/women/59.jpg",
+	  cover: "https://image.ibb.co/jXXOHa/5.jpg",
+	  description: "description5",
+	  social: {
+	    facebook: "https://www.facebook.com/knyttneve",
+	    twitter: "https://www.twitter.com/knyttneve",
+	    instagram: "https://www.instagram.com/midlake",
+	    github: "https://github.com/knyttneve"
+	  }
+	},
+	{
+	  id: 6,
+	  fullname: "Yuri Konev",
+	  title: "Game Developer",
+	  photo: "https://randomuser.me/api/portraits/men/52.jpg",
+	  cover: "https://image.ibb.co/b8vcca/2.jpg",
+	  description: "description6",
+	  social: {
+	    facebook: "https://www.facebook.com/knyttneve",
+	    twitter: "https://www.twitter.com/knyttneve",
+	    instagram: "https://www.instagram.com/midlake",
+	    github: "https://github.com/knyttneve"
+	  }
+	}, 
+	{
+	  id: 7,
+	  fullname: "Cameron Howe",
+	  title: "QA Engineer",
+	  photo: "https://randomuser.me/api/portraits/women/59.jpg",
+	  cover: "https://image.ibb.co/jXXOHa/5.jpg",
+	  description: "description7",
+	  social: {
+	    facebook: "https://www.facebook.com/knyttneve",
+	    twitter: "https://www.twitter.com/knyttneve",
+	    instagram: "https://www.instagram.com/midlake",
+	    github: "https://github.com/knyttneve"
+	  }
 	}
 
 
@@ -94,7 +165,7 @@ var app = new Vue({
 		showDetails: function showDetails(){
 			var _this = this;
 			setTimeout(function(){
-				_this.selected.setAttribute('style',+_this.style);
+				_this.selected.setAttribute('style',_this.style);
 			},200);
 			setTimeout(function(){
 				_this.isShowDetail = true;
