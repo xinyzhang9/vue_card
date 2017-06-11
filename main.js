@@ -5,7 +5,7 @@ var members = [
 		fullname: 'Ronaldo',
 		title: 'Prince',
 		photo: "img/7.jpg",
-	  	cover: "https://image.ibb.co/ctMTiF/1.jpg",
+	  	cover: "https://s-media-cache-ak0.pinimg.com/564x/4c/55/eb/4c55eb34a9769bc6cfd6904919dc7f94.jpg",
 	  	description: "description1",
 	  	social: {
 		    facebook: "https://www.facebook.com/adonis.s.zhang",
@@ -18,7 +18,7 @@ var members = [
 	  fullname: "Phoebe Salinger",
 	  title: "Developer",
 	  photo: "https://randomuser.me/api/portraits/women/63.jpg",
-	  cover: "https://image.ibb.co/mfRTiF/4.jpg",
+	  cover: "https://s-media-cache-ak0.pinimg.com/564x/41/9d/b3/419db3eadff1a2ff32e5c82bccebf4bb.jpg",
 	  description: "description2",	  
 	  social: {
 	    facebook: "https://www.facebook.com/knyttneve",
@@ -32,7 +32,7 @@ var members = [
 	  fullname: "Alper Kamu",
 	  title: "Software Engineer",
 	  photo: "https://randomuser.me/api/portraits/men/62.jpg",
-	  cover: "https://image.ibb.co/jVDVxa/3.jpg",
+	  cover: "https://s-media-cache-ak0.pinimg.com/564x/33/a9/f1/33a9f1dc9bbed779f610e6f0da830a05.jpg",
 	  description: "description3",
 	  social: {
 	    facebook: "https://www.facebook.com/knyttneve",
@@ -46,7 +46,7 @@ var members = [
 	  fullname: "Yuri Konev",
 	  title: "Game Developer",
 	  photo: "https://randomuser.me/api/portraits/men/52.jpg",
-	  cover: "https://image.ibb.co/b8vcca/2.jpg",
+	  cover: "https://s-media-cache-ak0.pinimg.com/564x/6f/3e/cc/6f3eccf2aef689b1bd2ab2b8d3255b56.jpg",
 	  description: "description4",
 	  social: {
 	    facebook: "https://www.facebook.com/knyttneve",
@@ -60,7 +60,7 @@ var members = [
 	  fullname: "Cameron Howe",
 	  title: "QA Engineer",
 	  photo: "https://randomuser.me/api/portraits/women/59.jpg",
-	  cover: "https://image.ibb.co/jXXOHa/5.jpg",
+	  cover: "https://s-media-cache-ak0.pinimg.com/564x/75/3a/a0/753aa04c0a6cd5dc4bd2f81ffb26f436.jpg",
 	  description: "description5",
 	  social: {
 	    facebook: "https://www.facebook.com/knyttneve",
@@ -74,7 +74,7 @@ var members = [
 	  fullname: "Yuri Konev",
 	  title: "Game Developer",
 	  photo: "https://randomuser.me/api/portraits/men/52.jpg",
-	  cover: "https://image.ibb.co/b8vcca/2.jpg",
+	  cover: "https://s-media-cache-ak0.pinimg.com/564x/a2/e1/a6/a2e1a612933ac92d91d07d88572ce4c4.jpg",
 	  description: "description6",
 	  social: {
 	    facebook: "https://www.facebook.com/knyttneve",
@@ -88,7 +88,7 @@ var members = [
 	  fullname: "Cameron Howe",
 	  title: "QA Engineer",
 	  photo: "https://randomuser.me/api/portraits/women/59.jpg",
-	  cover: "https://image.ibb.co/jXXOHa/5.jpg",
+	  cover: "https://s-media-cache-ak0.pinimg.com/564x/0e/82/3b/0e823bd700767b11ab7072be9e2bfb27.jpg",
 	  description: "description7",
 	  social: {
 	    facebook: "https://www.facebook.com/knyttneve",
