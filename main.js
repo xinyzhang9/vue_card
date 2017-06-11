@@ -6,11 +6,11 @@ var members = [
 		title: 'FORWARD',
 		photo: "http://barca.am/upload/footballers/020c7e31f9c2ebe4f86cb5d7b7948f59.png",
 	  	cover: "https://s-media-cache-ak0.pinimg.com/564x/33/a9/f1/33a9f1dc9bbed779f610e6f0da830a05.jpg",
-	  	description: "description1",
+	  	description: "Cristiano Ronaldo is a player who is destined to make history. Thanks to his immense natural talent, the Portuguese forward is a commanding leader for Real Madrid and his national team. Since he arrived at the Bernabéu from Manchester United, his goalscoring figures have just kept on improving to the delight of Madrid fans. ",
 	  	social: {
-		    facebook: "https://www.facebook.com/adonis.s.zhang",
-		    twitter: "https://twitter.com/Brother_Yang",
-		    instagram: "https://www.instagram.com/xinyzhang9/"
+		    facebook: "http://www.facebook.com/Cristiano",
+		    twitter: "https://twitter.com/Cristiano",
+		    instagram: "https://www.instagram.com/cristiano/"
 		  }
 	},
 	{
@@ -19,12 +19,11 @@ var members = [
 	  title: "FORWARD",
 	  photo: "img/messi.jpg",
 	  cover: "https://s-media-cache-ak0.pinimg.com/564x/41/9d/b3/419db3eadff1a2ff32e5c82bccebf4bb.jpg",
-	  description: "description2",	  
+	  description: "Messi is an excellent, sensational, unique player. He is astoundingly creative, has amazing individual skill and is able to constantly put his rivals at unease. A natural left footer, he is stunningly versatile, and can play either in the middle or on whichever of the wings required, although it is out on the right that he feels most comfortable.",	  
 	  social: {
-	    facebook: "https://www.facebook.com/knyttneve",
-	    twitter: "https://www.twitter.com/knyttneve",
-	    instagram: "https://www.instagram.com/midlake",
-	    github: "https://github.com/knyttneve"
+	    facebook: "http://www.facebook.com/LeoMessi",
+	    twitter: null,
+	    instagram: "http://instagram.com/leomessi",
 	  }
 	}, 
 	{
@@ -33,12 +32,11 @@ var members = [
 	  title: "FORWARD",
 	  photo: "img/neymar.jpg",
 	  cover: "https://s-media-cache-ak0.pinimg.com/564x/4c/55/eb/4c55eb34a9769bc6cfd6904919dc7f94.jpg",
-	  description: "description3",
+	  description: "Fast, tricky, clever and skilful – Neymar is particular dangerous one on one, but he can shine in any attacking position, capable of showing his quality on the counter or finding spaces in a packed defence with his stunning turn of pace. Neymar is a lethal weapon against any defence.",
 	  social: {
-	    facebook: "https://www.facebook.com/knyttneve",
-	    twitter: "https://www.twitter.com/knyttneve",
-	    instagram: "https://www.instagram.com/midlake",
-	    github: "https://github.com/knyttneve"
+	    facebook: "http://www.facebook.com/neymarjr",
+	    twitter: "http://twitter.com/neymarjr",
+	    instagram: "http://instagram.com/neymarjr",
 	  }
 	}, 
 	{
@@ -49,10 +47,9 @@ var members = [
 	  cover: "https://s-media-cache-ak0.pinimg.com/564x/6f/3e/cc/6f3eccf2aef689b1bd2ab2b8d3255b56.jpg",
 	  description: "description4",
 	  social: {
-	    facebook: "https://www.facebook.com/knyttneve",
-	    twitter: "https://www.twitter.com/knyttneve",
-	    instagram: "https://www.instagram.com/midlake",
-	    github: "https://github.com/knyttneve"
+	    facebook: "https://www.facebook.com/antoine.griezmann/",
+	    twitter: "https://twitter.com/antogriezmann",
+	    instagram: "https://www.instagram.com/antogriezmann/",
 	  }
 	}, 
 	{
@@ -61,12 +58,11 @@ var members = [
 	  title: "MIDFIELDER",
 	  photo: "img/modric.jpg",
 	  cover: "https://s-media-cache-ak0.pinimg.com/564x/75/3a/a0/753aa04c0a6cd5dc4bd2f81ffb26f436.jpg",
-	  description: "description5",
+	  description: "Skill and organizational ability at the service of the Whites’ midfield. After starring in three different countries (Bosnia, Croatia and England) and in the European Championship, Luka Modric signed for Real Madrid in August 2012, thus reaching the peak of his football career.",
 	  social: {
-	    facebook: "https://www.facebook.com/knyttneve",
-	    twitter: "https://www.twitter.com/knyttneve",
-	    instagram: "https://www.instagram.com/midlake",
-	    github: "https://github.com/knyttneve"
+	    facebook: "http://www.facebook.com/ModricLuka10",
+	    twitter: "http://twitter.com/lm19official",
+	    instagram: "http://www.instagram.com/lukam10/",
 	  }
 	},
 	{
@@ -77,10 +73,9 @@ var members = [
 	  cover: "https://s-media-cache-ak0.pinimg.com/564x/a2/e1/a6/a2e1a612933ac92d91d07d88572ce4c4.jpg",
 	  description: "description6",
 	  social: {
-	    facebook: "https://www.facebook.com/knyttneve",
-	    twitter: "https://www.twitter.com/knyttneve",
-	    instagram: "https://www.instagram.com/midlake",
-	    github: "https://github.com/knyttneve"
+	    facebook: "http://www.facebook.com/GianluigiBuffon?fref=ts",
+	    twitter: "http://twitter.com/gianluigibuffon",
+	    instagram: "http://www.instagram.com/gianluigibuffon/",
 	  }
 	}, 
 	{
@@ -91,10 +86,9 @@ var members = [
 	  cover: "https://s-media-cache-ak0.pinimg.com/564x/0e/82/3b/0e823bd700767b11ab7072be9e2bfb27.jpg",
 	  description: "description7",
 	  social: {
-	    facebook: "https://www.facebook.com/knyttneve",
-	    twitter: "https://www.twitter.com/knyttneve",
-	    instagram: "https://www.instagram.com/midlake",
-	    github: "https://github.com/knyttneve"
+	    facebook: "http://www.facebook.com/SergioRamosOficial/",
+	    twitter: "http://twitter.com/SergioRamos",
+	    instagram: "http://www.instagram.com/sr4oficial/",
 	  }
 	}
 
@@ -141,6 +135,7 @@ var app = new Vue({
 		selectMember: function selectMember(index){
 			var _this = this;
 			this.selected = document.querySelector(this.thumbID(index));
+			this.selectedIndex = index-1;
 
 			this.style = 'position:absolute;left:'+this.selected.offsetLeft + 'px;top:'+this.selected.offsetTop + 'px;';
 			this.others = document.querySelectorAll('.thumb:not(' + this.thumbID(index) + ')');
