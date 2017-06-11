@@ -19,7 +19,7 @@ var members = [
 	  title: "FORWARD",
 	  photo: "img/messi.jpg",
 	  cover: "img/cover2.jpg",
-	  description: "Messi is an excellent, sensational, unique player. He is astoundingly creative, has amazing individual skill and is able to constantly put his rivals at unease. A natural left footer, he is stunningly versatile, and can play either in the middle or on whichever of the wings required, although it is out on the right that he feels most comfortable.",	  
+	  description: "Messi is an excellent, sensational, unique player. He is astoundingly creative, has amazing individual skill and is able to constantly put his rivals at unease. A natural left footer, he is stunningly versatile, and is known for his finishing, positioning, quick reactions, and ability to make attacking runs to beat the defensive line. ",	  
 	  social: {
 	    facebook: "http://www.facebook.com/LeoMessi",
 	    twitter: null,
@@ -145,7 +145,7 @@ var app = new Vue({
 					if(_this.others.length-1 == i){
 						_this.showDetails();
 					}
-				},100*i+1)
+				},100*i+50)
 			});
 		},
 		backToMembers: function backToMembers(){
@@ -154,7 +154,7 @@ var app = new Vue({
 			this.others.forEach(function(ele,i){
 				setTimeout(function(){
 					ele.classList.remove('thumb-disable');
-				},100*i+1)
+				},100*i+50)
 			});
 		},
 		showDetails: function showDetails(){
