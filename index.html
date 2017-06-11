@@ -11,7 +11,7 @@
 
 </head>
 <body translate='no'>
-	<h1 id='title'>Best Soccer Players in the world</h1>
+	<h1 id='title'>Best Footballer in the world</h1>
 	<h4 id='author'>Made by Xinyang</h4>
 	<div class='wrapper' id='app'>
 		<div :class="['frame', isShowDetail ? 'frame-detail' : ''] ">
@@ -38,7 +38,7 @@
 					<a :href="members[selectedIndex].social.instagram" class="fa fa-instagram" target='_blank'></a>
 				</div>
 				<div class='profile_footer'>
-					<div class='back' @click='backToMembers()'><i class="fa fa-chevron-left" aria-hidden="true"></i>Back to Team</div>
+					<div class='back' @click='backToMembers()'><i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>Back to Team</div>
 				</div>
 			</div><!-- profile -->
 		</div><!-- frame -->
