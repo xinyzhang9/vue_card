@@ -10,7 +10,8 @@ var members = [
 	  	social: {
 		    facebook: "http://www.facebook.com/Cristiano",
 		    twitter: "https://twitter.com/Cristiano",
-		    instagram: "https://www.instagram.com/cristiano/"
+		    instagram: "https://www.instagram.com/cristiano/",
+		    wikipedia: "https://en.wikipedia.org/wiki/Cristiano_Ronaldo"
 		  }
 	},
 	{
@@ -24,6 +25,7 @@ var members = [
 	    facebook: "http://www.facebook.com/LeoMessi",
 	    twitter: null,
 	    instagram: "http://instagram.com/leomessi",
+	    wikipedia:"https://en.wikipedia.org/wiki/Lionel_Messi"
 	  }
 	}, 
 	{
@@ -37,6 +39,7 @@ var members = [
 	    facebook: "http://www.facebook.com/neymarjr",
 	    twitter: "http://twitter.com/neymarjr",
 	    instagram: "http://instagram.com/neymarjr",
+	    wikipedia: "https://en.wikipedia.org/wiki/Neymar"
 	  }
 	}, 
 	{
@@ -50,6 +53,7 @@ var members = [
 	    facebook: "https://www.facebook.com/antoine.griezmann/",
 	    twitter: "https://twitter.com/antogriezmann",
 	    instagram: "https://www.instagram.com/antogriezmann/",
+	    wikipedia: "https://en.wikipedia.org/wiki/Antoine_Griezmann"
 	  }
 	}, 
 	{
@@ -63,6 +67,7 @@ var members = [
 	    facebook: "http://www.facebook.com/ModricLuka10",
 	    twitter: "http://twitter.com/lm19official",
 	    instagram: "http://www.instagram.com/lukam10/",
+	    wikipedia: "https://en.wikipedia.org/wiki/Luka_Modri%C4%87"
 	  }
 	},
 	{
@@ -76,6 +81,7 @@ var members = [
 	    facebook: "http://www.facebook.com/GianluigiBuffon?fref=ts",
 	    twitter: "http://twitter.com/gianluigibuffon",
 	    instagram: "http://www.instagram.com/gianluigibuffon/",
+	    wikipedia: "https://en.wikipedia.org/wiki/Gianluigi_Buffon"
 	  }
 	}, 
 	{
@@ -89,6 +95,7 @@ var members = [
 	    facebook: "http://www.facebook.com/SergioRamosOficial/",
 	    twitter: "http://twitter.com/SergioRamos",
 	    instagram: "http://www.instagram.com/sr4oficial/",
+	    wikipedia: "https://en.wikipedia.org/wiki/Sergio_Ramos"
 	  }
 	}
 
