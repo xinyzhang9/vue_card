@@ -1,5 +1,12 @@
 "use strict";
 
+Vue.component('thumb',{
+	name: 'thumb',
+	template: '<div class=\'thumb\'>\n <div class=\'thumb_photo\'>\n <img :src=\'photo\' alt=\'\' /></div>\n <div class=\'thumb_content\'>\n <h2 class=\'thumb_fullname\'>{{fullname}}</h2>\n <p class=\'thumb_title\'>{{title}}</p>\n </div>\n </div>',
+	props: ['fullname','title','photo','test']
+
+});
+
 var app = new Vue({
 	el: '#app',
 	data: function data(){
