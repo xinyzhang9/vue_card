@@ -2,7 +2,7 @@
 A team member display card written in vue.js
 
 ## Live
-
+[live demo](https://xinyzhang9.github.io/vue_card/)
 
 ## Features
 - [x] interactive changing cover
