@@ -152,7 +152,7 @@ var app = new Vue({
 					if(_this.others.length-1 == i){
 						_this.showDetails();
 					}
-				},100*i+50)
+				},50*i+5)
 			});
 		},
 		backToMembers: function backToMembers(){
@@ -161,7 +161,7 @@ var app = new Vue({
 			this.others.forEach(function(ele,i){
 				setTimeout(function(){
 					ele.classList.remove('thumb-disable');
-				},100*i+50)
+				},50*i+5)
 			});
 		},
 		showDetails: function showDetails(){
