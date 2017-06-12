@@ -9,7 +9,7 @@ A team member display card written in vue.js
 - [x] interactive changing cover
 - [x] image blur for better visualization effect
 - [x] smooth detail/overall transition
-- [x] highly organized data format for easy extension 
+- [x] resuable components for future extension 
 - [x] link to social network page
 
 ## Screenshot
