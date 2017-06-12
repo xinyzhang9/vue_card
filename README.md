@@ -1,5 +1,5 @@
 # Card for Best Footballer
-A team member display card written in vue.js
+A pretty player card with interaction written in vue.js
 
 ## Live
 [live demo](https://xinyzhang9.github.io/vue_card/)
