@@ -15,6 +15,6 @@ A pretty player card with interaction written in vue.js
 ## Screenshot
 
 #### overall display
-![alt tag](https://raw.githubusercontent.com/xinyzhang9/vue_card/master/screen1.png)
+![alt tag](./screen1.png)
 #### detail display
-![alt tag](https://raw.githubusercontent.com/xinyzhang9/vue_card/master/screen2.png)
+![alt tag](./screen2.png)
